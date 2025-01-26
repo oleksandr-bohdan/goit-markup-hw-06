@@ -230,11 +230,9 @@ address {
 }
 
 .menu-close-btn:hover,
-.menu-close-btn:focus . .menu-close-btn-icon {
+.menu-close-btn:focus,
+.menu-close-btn-icon {
   fill: #ffffff;
-}
-
-.mob-menu-list {
 }
 
 .mob-menu-item:not(:last-child) {
@@ -963,9 +961,6 @@ address {
 
 .modal-comment:focus {
   border-color: #4d5ae5;
-}
-
-.modal-field-check {
 }
 
 .modal-check-title {
