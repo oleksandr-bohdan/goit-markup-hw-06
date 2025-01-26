@@ -258,8 +258,7 @@ address {
 .current {
   color: #404bbf;
 }
-.mob-address {
-}
+
 .mob-address-list {
   display: flex;
   flex-direction: column;
@@ -336,9 +335,6 @@ address {
   }
 }
 
-.hero-container {
-}
-
 .hero-title {
   font-weight: 700;
   font-size: 36px;
@@ -411,14 +407,8 @@ address {
   gap: 72px;
 }
 
-.feature-list-item {
-}
-
 .feature-list-item-icon {
   display: none;
-}
-
-.feature-list-item-icon-icon {
 }
 
 .features-list-item-subtitle {
@@ -480,9 +470,6 @@ address {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.team-list-item-ipg {
 }
 
 .team-list-item-container {
@@ -600,9 +587,6 @@ address {
 .portfolio-cover-card-wrap {
   position: relative;
   overflow: hidden;
-}
-
-.portfolio-cover-card-block {
 }
 
 .portfolio-cover-card-text {
@@ -1254,9 +1238,6 @@ address {
     }
   }
 
-  .hero-container {
-  }
-
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -1294,9 +1275,6 @@ address {
         ),
         url(../images/Dark-bg-desk-2x-min.jpg);
     }
-  }
-
-  .hero-container {
   }
 
   .hero-title {
@@ -1406,9 +1384,6 @@ address {
 /*=====================Tablet_768=========*/
 
 @media (min-width: 768px) {
-  .team {
-  }
-
   .container-team {
     max-width: 768px;
     padding-left: 108px;
@@ -1423,9 +1398,6 @@ address {
 
   .team-list-item {
     width: calc((100% - 24px) / 2);
-  }
-
-  .team-list-item-container {
   }
 }
 
@@ -1446,9 +1418,6 @@ address {
     margin-right: auto;
   }
 
-  .team-title {
-  }
-
   .team-list {
     flex-wrap: nowrap;
     gap: 24px;
@@ -1456,16 +1425,6 @@ address {
 
   .team-list-item {
     width: calc((100% - 72px) / 4);
-  }
-
-  .team-list-item-container {
-  }
-
-  .team-list-item-subtitle {
-  }
-
-  .team-list-item-text {
-    /*font-weight: regular;*/
   }
 }
 
@@ -1482,9 +1441,6 @@ address {
 
   .container {
     max-width: 768px;
-  }
-
-  .portfolio-title {
   }
 
   .portfolio-list-wrapper {
@@ -1512,9 +1468,6 @@ address {
     padding-right: 15px;
   }
 
-  .portfolio-title {
-  }
-
   .portfolio-list-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -1528,22 +1481,6 @@ address {
 
   .portfolio-list-item:hover .portfolio-cover-card-text {
     transform: translateY(0);
-  }
-
-  .portfolio-list-item:hover,
-  .portfolio-list-item:focus {
-  }
-
-  .container-portfolio-list-item {
-  }
-
-  .portfolio-list-item-subtitle {
-  }
-
-  .portfolio-cover-card-wrap {
-  }
-
-  .portfolio-cover-card-block {
   }
 
   .portfolio-cover-card-text {
@@ -1562,9 +1499,6 @@ address {
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .portfolio-list-item-text {
   }
 }
 
@@ -1610,22 +1544,6 @@ address {
     justify-content: start;
   }
 
-  .footer-soc-text {
-  }
-
-  .footer-soc-list {
-  }
-
-  .footer-soc-item {
-  }
-
-  .footer-soc-link {
-  }
-
-  .footer-soc-link:hover,
-  .footer-soc-link:focus {
-  }
-
   .footer-bottom {
     align-items: baseline;
     margin-right: auto;
@@ -1663,12 +1581,6 @@ address {
     width: 264px;
   }
 
-  .footer-logo {
-  }
-
-  .span-footer-logo {
-  }
-
   .footer-text {
     max-width: 264px;
   }
@@ -1677,21 +1589,8 @@ address {
     align-items: baseline;
   }
 
-  .footer-soc-text {
-  }
-
   .footer-soc-list {
     margin-right: 80px;
-  }
-
-  .footer-soc-item {
-  }
-
-  .footer-soc-link {
-  }
-
-  .footer-soc-link:hover,
-  .footer-soc-link:focus {
   }
 
   .footer-bottom {
@@ -1708,18 +1607,6 @@ address {
     height: 40px;
   }
 }
-
-/*==========================================*/
-/*=============backdrop================*/
-/*=============Tablet_768==============*/
-@media screen and (min-width: 768px) {
-}
-/*============Main_Page_1158===========*/
-@media screen and (min-width: 1158px) {
-  .backdrop {
-  }
-}
-
 /*=====================================*/
 /*==============modal==================*/
 /*=============Tablet_768==============*/
@@ -1741,16 +1628,10 @@ address {
     min-height: 584px;
   }
 
-  .modal-btn {
-  }
-
   .modal-btn:hover,
   .modal-btn:focus {
     background-color: #404bbf;
     border: none;
-  }
-
-  .modal-btn-icon {
   }
 
   .modal-btn:hover,
@@ -1767,9 +1648,6 @@ address {
     margin-bottom: 8px;
   }
 
-  .modal-input {
-  }
-
   .modal-input:hover,
   .modal-input:focus {
     border: 1px solid #4d5ae5;
@@ -1779,33 +1657,12 @@ address {
     fill: #4d5ae5;
   }
 
-  .modal-label {
-  }
-
   .modal-input-wrap {
     position: relative;
   }
 
-  .modal-icon {
-  }
-
-  .modal-field-comment {
-  }
-
-  .modal-comment {
-  }
-
   .modal-comment:focus {
     border-color: #4d5ae5;
-  }
-
-  .modal-field-check {
-  }
-
-  .modal-check-title {
-  }
-
-  .modal-check-title a {
   }
 
   .modal-check-span {
@@ -1827,12 +1684,6 @@ address {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
-  }
-
-  .send-btn {
-  }
-
-  .is-open {
   }
 }
 
